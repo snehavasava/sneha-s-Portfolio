@@ -1,0 +1,1329 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sneha vasava</title>
+<link rel="stylesheet" href="style-light.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+<style>
+    /*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: #ecf3f3;
+}
+
+#particles {
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  top: 0;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 0%;
+}
+.particle:nth-child(even) {
+  border-radius: 100%;
+}
+
+@keyframes particle-animation-1 {
+   100% {
+     transform: translate3d(78vw, 46vh, 5px);
+  }
+}
+ .particle:nth-child(1) {
+   animation: particle-animation-1 50s infinite;
+   opacity: 0.9;
+   height: 8px;
+   width: 8px;
+   animation-delay: -0.2s;
+   transform: translate3d(8vw, 87vh, 61px);
+   background: #d326d9;
+}
+ @keyframes particle-animation-2 {
+   100% {
+     transform: translate3d(1vw, 25vh, 98px);
+  }
+}
+ .particle:nth-child(2) {
+   animation: particle-animation-2 70s infinite;
+   opacity: 0.27;
+   height: 10px;
+   width: 10px;
+   animation-delay: -0.4s;
+   transform: translate3d(80vw, 70vh, 31px);
+   background: #38d926;
+}
+ @keyframes particle-animation-3 {
+   100% {
+     transform: translate3d(57vw, 59vh, 93px);
+  }
+}
+ .particle:nth-child(3) {
+   animation: particle-animation-3 60s infinite;
+   opacity: 0.29;
+   height: 10px;
+   width: 10px;
+   animation-delay: -0.6s;
+   transform: translate3d(69vw, 30vh, 12px);
+   background: #d98026;
+}
+ @keyframes particle-animation-4 {
+   100% {
+     transform: translate3d(36vw, 26vh, 91px);
+  }
+}
+ .particle:nth-child(4) {
+   animation: particle-animation-4 80s infinite;
+   opacity: 0.93;
+   height: 10px;
+   width: 10px;
+   animation-delay: -0.8s;
+   transform: translate3d(56vw, 87vh, 15px);
+   background: #4126d9;
+}
+ @keyframes particle-animation-5 {
+   100% {
+     transform: translate3d(53vw, 31vh, 66px);
+  }
+}
+ .particle:nth-child(5) {
+   animation: particle-animation-5 40s infinite;
+   opacity: 0.47;
+   height: 9px;
+   width: 9px;
+   animation-delay: -1s;
+   transform: translate3d(52vw, 51vh, 88px);
+   background: #d97726;
+}
+ @keyframes particle-animation-6 {
+   100% {
+     transform: translate3d(84vw, 49vh, 31px);
+  }
+}
+ .particle:nth-child(6) {
+   animation: particle-animation-6 30s infinite;
+   opacity: 0.46;
+   height: 8px;
+   width: 8px;
+   animation-delay: -1.2s;
+   transform: translate3d(35vw, 25vh, 95px);
+   background: #ed9121;
+}
+ @keyframes particle-animation-7 {
+   100% {
+     transform: translate3d(22vw, 78vh, 38px);
+  }
+}
+ .particle:nth-child(7) {
+   animation: particle-animation-7 60s infinite;
+   opacity: 0.19;
+   height: 10px;
+   width: 10px;
+   animation-delay: -1.4s;
+   transform: translate3d(88vw, 41vh, 32px);
+   background: #d9b826;
+}
+ @keyframes particle-animation-8 {
+   100% {
+     transform: translate3d(62vw, 15vh, 55px);
+  }
+}
+ .particle:nth-child(8) {
+   animation: particle-animation-8 90s infinite;
+   opacity: 0.29;
+   height: 6px;
+   width: 6px;
+   animation-delay: -1.6s;
+   transform: translate3d(61vw, 80vh, 88px);
+   background: #26d95c;
+}
+ @keyframes particle-animation-9 {
+   100% {
+     transform: translate3d(68vw, 96vh, 77px);
+  }
+}
+ .particle:nth-child(9) {
+   animation: particle-animation-9 55s infinite;
+   opacity: 0.27;
+   height: 6px;
+   width: 6px;
+   animation-delay: -1.8s;
+   transform: translate3d(72vw, 34vh, 84px);
+   background: #26d9ca;
+}
+ @keyframes particle-animation-10 {
+   100% {
+     transform: translate3d(20vw, 62vh, 19px);
+  }
+}
+ .particle:nth-child(10) {
+   animation: particle-animation-10 65s infinite;
+   opacity: 0.83;
+   height: 6px;
+   width: 6px;
+   animation-delay: -2s;
+   transform: translate3d(18vw, 82vh, 43px);
+   background: #afd926;
+}
+ @keyframes particle-animation-11 {
+   100% {
+     transform: translate3d(42vw, 20vh, 100px);
+  }
+}
+ .particle:nth-child(11) {
+   animation: particle-animation-11 75s infinite;
+   opacity: 0.53;
+   height: 8px;
+   width: 8px;
+   animation-delay: -2.2s;
+   transform: translate3d(79vw, 44vh, 33px);
+   background: #ed9121;
+}
+ @keyframes particle-animation-12 {
+   100% {
+     transform: translate3d(15vw, 77vh, 78px);
+  }
+}
+ .particle:nth-child(12) {
+   animation: particle-animation-12 45s infinite;
+   opacity: 0.12;
+   height: 6px;
+   width: 6px;
+   animation-delay: -2.4s;
+   transform: translate3d(6vw, 23vh, 96px);
+   background: #d92635;
+}
+ @keyframes particle-animation-13 {
+   100% {
+     transform: translate3d(28vw, 68vh, 93px);
+  }
+}
+ .particle:nth-child(13) {
+   animation: particle-animation-13 60s infinite;
+   opacity: 0.56;
+   height: 6px;
+   width: 6px;
+   animation-delay: -2.6s;
+   transform: translate3d(3vw, 4vh, 19px);
+   background: #32d926;
+}
+ @keyframes particle-animation-14 {
+   100% {
+     transform: translate3d(2vw, 82vh, 52px);
+  }
+}
+ .particle:nth-child(14) {
+   animation: particle-animation-14 50s infinite;
+   opacity: 0.85;
+   height: 10px;
+   width: 10px;
+   animation-delay: -2.8s;
+   transform: translate3d(60vw, 33vh, 74px);
+   background: #26d944;
+}
+ @keyframes particle-animation-15 {
+   100% {
+     transform: translate3d(71vw, 13vh, 27px);
+  }
+}
+ .particle:nth-child(15) {
+   animation: particle-animation-15 70s infinite;
+   opacity: 0.76;
+   height: 8px;
+   width: 8px;
+   animation-delay: -3s;
+   transform: translate3d(49vw, 73vh, 94px);
+   background: #d94726;
+}
+ @keyframes particle-animation-16 {
+   100% {
+     transform: translate3d(83vw, 9vh, 27px);
+  }
+}
+ .particle:nth-child(16) {
+   animation: particle-animation-16 65s infinite;
+   opacity: 0.9;
+   height: 8px;
+   width: 8px;
+   animation-delay: -3.2s;
+   transform: translate3d(9vw, 63vh, 93px);
+   background: #263ed9;
+}
+ @keyframes particle-animation-17 {
+   100% {
+     transform: translate3d(14vw, 70vh, 91px);
+  }
+}
+ .particle:nth-child(17) {
+   animation: particle-animation-17 60s infinite;
+   opacity: 0.45;
+   height: 9px;
+   width: 9px;
+   animation-delay: -3.4s;
+   transform: translate3d(71vw, 12vh, 56px);
+   background: #ed9121;
+}
+ @keyframes particle-animation-18 {
+   100% {
+     transform: translate3d(82vw, 61vh, 53px);
+  }
+}
+ .particle:nth-child(18) {
+   animation: particle-animation-18 45s infinite;
+   opacity: 0.47;
+   height: 7px;
+   width: 7px;
+   animation-delay: -3.6s;
+   transform: translate3d(77vw, 7vh, 28px);
+   background: #26c4d9;
+}
+ @keyframes particle-animation-19 {
+   100% {
+     transform: translate3d(10vw, 56vh, 59px);
+  }
+}
+ .particle:nth-child(19) {
+   animation: particle-animation-19 65s infinite;
+   opacity: 0.26;
+   height: 8px;
+   width: 8px;
+   animation-delay: -3.8s;
+   transform: translate3d(22vw, 84vh, 69px);
+   background: #2665d9;
+}
+ @keyframes particle-animation-20 {
+   100% {
+     transform: translate3d(61vw, 30vh, 9px);
+  }
+}
+ .particle:nth-child(20) {
+   animation: particle-animation-20 60s infinite;
+   opacity: 0.71;
+   height: 6px;
+   width: 6px;
+   animation-delay: -4s;
+   transform: translate3d(70vw, 69vh, 84px);
+   background: #26d9cd;
+}
+ @keyframes particle-animation-21 {
+   100% {
+     transform: translate3d(82vw, 80vh, 70px);
+  }
+}
+ .particle:nth-child(21) {
+   animation: particle-animation-21 60s infinite;
+   opacity: 0.48;
+   height: 7px;
+   width: 7px;
+   animation-delay: -4.2s;
+   transform: translate3d(86vw, 99vh, 98px);
+   background: #ed9121;
+}
+ @keyframes particle-animation-22 {
+   100% {
+     transform: translate3d(13vw, 18vh, 48px);
+  }
+}
+ .particle:nth-child(22) {
+   animation: particle-animation-22 50s infinite;
+   opacity: 0.83;
+   height: 6px;
+   width: 6px;
+   animation-delay: -4.4s;
+   transform: translate3d(74vw, 43vh, 40px);
+   background: #d95026;
+}
+ @keyframes particle-animation-23 {
+   100% {
+     transform: translate3d(57vw, 59vh, 16px);
+  }
+}
+ .particle:nth-child(23) {
+   animation: particle-animation-23 35s infinite;
+   opacity: 0.55;
+   height: 10px;
+   width: 10px;
+   animation-delay: -4.6s;
+   transform: translate3d(5vw, 78vh, 43px);
+   background: #6526d9;
+}
+ @keyframes particle-animation-24 {
+   100% {
+     transform: translate3d(27vw, 80vh, 62px);
+  }
+}
+ .particle:nth-child(24) {
+   animation: particle-animation-24 70s infinite;
+   opacity: 0.06;
+   height: 6px;
+   width: 6px;
+   animation-delay: -4.8s;
+   transform: translate3d(11vw, 57vh, 55px);
+   background: #bb26d9;
+}
+ @keyframes particle-animation-25 {
+   100% {
+     transform: translate3d(5vw, 27vh, 26px);
+  }
+}
+ .particle:nth-child(25) {
+   animation: particle-animation-25 60s infinite;
+   opacity: 0.38;
+   height: 9px;
+   width: 9px;
+   animation-delay: -5s;
+   transform: translate3d(74vw, 56vh, 42px);
+   background: #ed9121;
+}
+ @keyframes particle-animation-26 {
+   100% {
+     transform: translate3d(48vw, 60vh, 21px);
+  }
+}
+ .particle:nth-child(26) {
+   animation: particle-animation-26 65s infinite;
+   opacity: 0.38;
+   height: 10px;
+   width: 10px;
+   animation-delay: -5.2s;
+   transform: translate3d(44vw, 24vh, 2px);
+   background: #d94a26;
+}
+ @keyframes particle-animation-27 {
+   100% {
+     transform: translate3d(24vw, 3vh, 87px);
+  }
+}
+ .particle:nth-child(27) {
+   animation: particle-animation-27 55s infinite;
+   opacity: 0.83;
+   height: 9px;
+   width: 9px;
+   animation-delay: -5.4s;
+   transform: translate3d(39vw, 75vh, 42px);
+   background: #d9269a;
+}
+ @keyframes particle-animation-28 {
+   100% {
+     transform: translate3d(87vw, 11vh, 22px);
+  }
+}
+ .particle:nth-child(28) {
+   animation: particle-animation-28 60s infinite;
+   opacity: 0.71;
+   height: 7px;
+   width: 7px;
+   animation-delay: -5.6s;
+   transform: translate3d(84vw, 80vh, 78px);
+   background: #26d977;
+}
+ @keyframes particle-animation-29 {
+   100% {
+     transform: translate3d(43vw, 70vh, 31px);
+  }
+}
+ .particle:nth-child(29) {
+   animation: particle-animation-29 45s infinite;
+   opacity: 0.44;
+   height: 8px;
+   width: 8px;
+   animation-delay: -5.8s;
+   transform: translate3d(18vw, 39vh, 47px);
+   background: #ed9121;
+}
+ @keyframes particle-animation-30 {
+   100% {
+     transform: translate3d(14vw, 49vh, 89px);
+  }
+}
+ .particle:nth-child(30) {
+   animation: particle-animation-30 75s infinite;
+   opacity: 0.25;
+   height: 8px;
+   width: 8px;
+   animation-delay: -6s;
+   transform: translate3d(21vw, 12vh, 5px);
+   background: #3826d9;
+}
+@keyframes particle-animation-31 {
+   100% {
+     transform: translate3d(63vw, 36vh, 47px);
+  }
+}
+ .particle:nth-child(31) {
+   animation: particle-animation-31 60s infinite;
+   opacity: 0.57;
+   height: 7px;
+   width: 7px;
+   animation-delay: -1.8s;
+   transform: translate3d(70vw, 19vh, 24px);
+   background: #26d9ca;
+}
+ @keyframes particle-animation-32 {
+   100% {
+     transform: translate3d(10vw, 42vh, 69px);
+  }
+}
+ .particle:nth-child(32) {
+   animation: particle-animation-32 80s infinite;
+   opacity: 0.83;
+   height: 10px;
+   width: 10px;
+   animation-delay: -2s;
+   transform: translate3d(8vw, 67vh, 83px);
+   background: #afd926;
+}
+ @keyframes particle-animation-33 {
+   100% {
+     transform: translate3d(32vw, 68vh, 80px);
+  }
+}
+ .particle:nth-child(33) {
+   animation: particle-animation-33 50s infinite;
+   opacity: 0.43;
+   height: 8px;
+   width: 8px;
+   animation-delay: -2.2s;
+   transform: translate3d(69vw, 24vh, 53px);
+   background: #ed9121;
+}
+ @keyframes particle-animation-34 {
+   100% {
+     transform: translate3d(5vw, 7vh, 48px);
+  }
+}
+ .particle:nth-child(34) {
+   animation: particle-animation-34 40s infinite;
+   opacity: 0.32;
+   height: 9px;
+   width: 9px;
+   animation-delay: -2.4s;
+   transform: translate3d(6vw, 43vh, 66px);
+   background: #d92635;
+}
+ @keyframes particle-animation-35 {
+   100% {
+     transform: translate3d(48vw, 58vh, 43px);
+  }
+}
+ .particle:nth-child(35) {
+   animation: particle-animation-35 50s infinite;
+   opacity: 0.56;
+   height: 4px;
+   width: 4px;
+   animation-delay: -2.6s;
+   transform: translate3d(32vw, 26vh, 19px);
+   background: #32d926;
+}
+ @keyframes particle-animation-36 {
+   100% {
+     transform: translate3d(20vw, 62vh, 42px);
+  }
+}
+ .particle:nth-child(36) {
+   animation: particle-animation-36 60s infinite;
+   opacity: 0.85;
+   height: 10px;
+   width: 10px;
+   animation-delay: -2.8s;
+   transform: translate3d(40vw, 33vh, 94px);
+   background: #26d944;
+}
+ @keyframes particle-animation-37 {
+   100% {
+     transform: translate3d(1vw, 13vh, 57px);
+  }
+}
+ .particle:nth-child(37) {
+   animation: particle-animation-37 65s infinite;
+   opacity: 0.56;
+   height: 8px;
+   width: 8px;
+   animation-delay: -3s;
+   transform: translate3d(9vw, 43vh, 84px);
+   background: #ed9121;
+}
+ @keyframes particle-animation-38 {
+   100% {
+     transform: translate3d(80vw, 92vh, 27px);
+  }
+}
+ .particle:nth-child(38) {
+   animation: particle-animation-38 55s infinite;
+   opacity: 0.9;
+   height: 8px;
+   width: 8px;
+   animation-delay: -3.2s;
+   transform: translate3d(62vw, 12vh, 93px);
+   background: #263ed9;
+}
+ @keyframes particle-animation-39 {
+   100% {
+     transform: translate3d(4vw, 50vh, 51px);
+  }
+}
+ .particle:nth-child(39) {
+   animation: particle-animation-39 60s infinite;
+   opacity: 0.45;
+   height: 9px;
+   width: 9px;
+   animation-delay: -3.4s;
+   transform: translate3d(61vw, 72vh, 56px);
+   background: #26bbd9;
+}
+ @keyframes particle-animation-40 {
+   100% {
+     transform: translate3d(82vw, 61vh, 53px);
+  }
+}
+ .particle:nth-child(40) {
+   animation: particle-animation-40 60s infinite;
+   opacity: 0.47;
+   height: 7px;
+   width: 7px;
+   animation-delay: -3.6s;
+   transform: translate3d(77vw, 7vh, 28px);
+   background: #ed9121;
+}
+
+/* There's also a SCSS way to tackle this
+
+@for $i from 1 through 30 {
+	@keyframes particle-animation-#{$i} {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+		}
+	}
+	
+	.particle:nth-child(#{$i}){
+		animation: particle-animation-#{$i} 60s infinite;
+		$size: random(5) + 5 + px;
+		opacity: random(100)/100;
+		height: $size;
+		width: $size;
+		animation-delay: -$i * .2s;
+		transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+		background: hsl(random(360), 70%, 50%);
+	}
+}
+
+*/
+
+
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #009bdf;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #009bdf;
+}
+
+/* all similar content styling codes */
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.about, .services, .skills, .teams, .contact, footer{
+    font-family: 'Raleway', sans-serif;
+}
+.about .about-content,
+.services .serv-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+section .title{
+    position: relative;
+    text-align: start;
+    font-size: 22px;
+    font-weight: 200;
+    /* margin-bottom: 60px; */
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: #009bdf;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: #009bdf;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #009bdf;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+
+/* menu btn styling */
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #009bdf;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #ededed;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+
+
+/* home section styling */
+.home{
+    display: flex;
+    /* background: url(../hero\ img.png) no-repeat right; */
+    height: 86vh;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    min-height: 500px;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.home .max-width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: #009bdf;
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    /* background: #6e6e6e; */
+    color: #000;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #009bdf;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: #6e6e6e;
+    background: none;
+}
+
+/* about section styling */
+.about{
+    background-color: #fff;
+}
+.title{
+    color: #009bdf;
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.under-text{
+    color: #000;
+    /* letter-spacing: 1.2px; */
+    line-height: 1.1em;
+    font-size: 2.9411764705882rem;
+    font-weight: 800;
+    font-family: 'Playfair Display',serif;
+}
+.text{
+    color: #fff;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: #009bdf;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    /* background: #6e6e6e; */
+    color: #000;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #009bdf;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: #000;
+    background: none;
+}
+
+/* services section styling */
+.services, .teams{
+    color:#000;
+    /* background-image: url(../background2\ copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+/* background-color: #ecf3f3; */
+    background-size: cover;
+}
+.skill-about{
+    color: #758398;
+    font-family: serif;
+    font-size: 27px;
+    font-weight: 500;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.serv-content{
+    margin-top: 30px;
+}
+
+.services .serv-content .card{
+    width: 48%;
+    /* background: #009bdf26; */
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: #009bdf87;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 30px;
+    color: #009bdf;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.about-div{
+    display: flex;
+    margin-top: 80px;
+}
+.under-about{
+    color: #009bdf;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: 800;
+    font-family: 'Font Awesome 5 Free';
+}
+.first{
+    width: 47%;
+}
+.second{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.text-about{
+    color: #758398;
+    font-family: serif;
+}
+.skill-text{
+    font-size: 1.2941176470588rem;
+    line-height: 1.2em;
+    font-weight: 500;
+    font-family: 'Barlow Semi Condensed',sans-serif;
+    color: #000;
+    text-align: left;
+}
+.under-skill{
+    font-size: 13px;
+    margin-top: 15px;
+    text-align: left;
+    color: #758398;
+}
+/* img section  */
+.img-sec{
+    background-image:url(../beautiful-landscape.jpg) ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    
+}
+
+
+
+/* contact section styling */
+.contact{
+    background-color: #fff;
+    display: flex;
+    
+
+}
+.contact-first{
+    width: 50%;
+}
+.contact-second{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-title{
+    text-decoration: underline;
+    font-size: 4.8823529411765rem;
+    font-weight: 800;
+    font-family: 'Playfair Display',serif;
+    line-height: 1.1em;
+    color: #009bdf;
+}
+.contact .contact-content .column{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button-area{
+  display: flex;
+  align-items: center;
+}
+.right form .button-area button{
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: #6e6e6e;
+  border: 2px solid #6e6e6e;
+  transition: all 0.3s ease;
+}
+
+
+.right form .button-area button:hover{
+  color: #6e6e6e;
+  background: none;
+}
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: #6e6e6e;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+
+/* responsive media query start */
+@media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 947px){
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .home .home-content .text-2{
+        font-size: 70px;
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+    .about .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right{
+        flex: 100%;
+    }
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .skills .skills-content .column,
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+    }
+    .services .serv-content .card{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text{
+        font-size: 19px;
+    }
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
+</style>
+</head>
+<body>
+
+    <div id="particles"></div>
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Welcome.</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, I am</div>
+                <div class="text-2">Sneha Vasava</div>
+                <div class="text-3">And I am a <span class="typing"></span></div>
+                <a href="#about">About Me</a>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="column right">
+                    <!-- <div class="text">I'm Sneha Vasava and I am a <span class="typing-2"></span></div> -->
+                    <p class="under-text">I am an enthusiastic web developer based in New York, with a rich experience of over 6 years in website & product design.</p>
+                  
+                </div>
+                <div class="about-div">
+                    <div class="first">
+                        <h3 class="under-about">I design professional & beautiful websites</h3>
+                    </div>
+                    <div class="second">
+                        <p class="text-about">With years of experience in graphic and web design I have mastered the skills of understanding client requirements according to the latest trends. I have worked with businesses from different niches so you can rely on me for yours.</p>
+                    <p class="text-about">I’ve spent most of these years working across different areas of design like front-end development, landing pages, email design, app UI/UX, to my current role designing products for mobile platforms. Having worked on various projects that are already live, I can help you with the best possible suggestions and ideas that we can proceed with. With me, you aren’t forced to accept anything. I give you a variety of options we can work on together.
+                    </p>
+                    </div>
+                </div>
+            </div>
+       
+    </section>
+    <section class="img-sec">
+
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">What I do</h2>
+            <h3 class="skill-about">From understanding your requirements, designing a blueprint and delivering the final product, I do everything that falls in between these lines.</h3>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                       <div><i class="fas fa-laptop-code"></i></div>
+                        <div><div class="skill-text">WEB DEVELOPMENT</div>
+                        <p class="under-skill">If you are looking for a developer who’ll take over the research and development of your website, I am a well-established professional to help you with this.</p>
+                    </div></div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div><i class="fas fa-code"></i></div>
+                       <div> <div class="skill-text">Wordpress Web Developer</div>
+                        <p class="under-skill">If you are looking for a developer who’ll take over the research and development of your website, I am a well-established professional to help you with this.</p>
+                    </div></div>
+
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="contact-title">Get in touch</h2>
+            
+        </div>
+        <div class="contact-second">
+           <img src="../Sneha's Portfolio/insta.png" width="8%" alt="">
+           <img src="../Sneha's Portfolio/lin.png" width="5%" alt="">
+
+        </div>
+    </section>
+
+
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href = "">SnehaVasava</a> | <span class="far fa-copyright"></span> 2024 SnehaVasava All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
